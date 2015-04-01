@@ -1,9 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c07f8ac-62a1-4132-8158-c39e61743953" name="Default" comment="" />
+    <list default="true" id="1c07f8ac-62a1-4132-8158-c39e61743953" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cinema/Entities/Film.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cinema/Entities/Shows.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Data\DBconfig.php" afterPath="$PROJECT_DIR$/src/Cinema/Data/DBconfig.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Autoloader.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Autoloader.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Compiler.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Compiler.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\CompilerInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/CompilerInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Environment.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Environment.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Error.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Error.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Error\Loader.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Error/Loader.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Error\Runtime.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Error/Runtime.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Error\Syntax.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Error/Syntax.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\ExistsLoaderInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/ExistsLoaderInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\ExpressionParser.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/ExpressionParser.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\ExtensionInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/ExtensionInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Core.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Core.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Debug.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Debug.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Escaper.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Escaper.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Optimizer.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Optimizer.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Profiler.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Profiler.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Sandbox.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Sandbox.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\Staging.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/Staging.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Extension\StringLoader.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Extension/StringLoader.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\FileExtensionEscapingStrategy.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/FileExtensionEscapingStrategy.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Filter.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Filter.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\FilterCallableInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/FilterCallableInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\FilterInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/FilterInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Filter\Function.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Filter/Function.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Filter\Method.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Filter/Method.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Filter\Node.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Filter/Node.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Function.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Function.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\FunctionCallableInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/FunctionCallableInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\FunctionInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/FunctionInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Function\Function.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Function/Function.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Function\Method.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Function/Method.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Function\Node.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Function/Node.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Lexer.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Lexer.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\LexerInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/LexerInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\LoaderInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/LoaderInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Loader\Array.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Loader/Array.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Loader\Chain.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Loader/Chain.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Loader\Filesystem.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Loader/Filesystem.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Loader\String.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Loader/String.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Markup.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Markup.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeOutputInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeOutputInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeTraverser.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeTraverser.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeVisitorInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeVisitorInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeVisitor\Escaper.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeVisitor/Escaper.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeVisitor\Optimizer.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeVisitor/Optimizer.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeVisitor\SafeAnalysis.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeVisitor/SafeAnalysis.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\NodeVisitor\Sandbox.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/NodeVisitor/Sandbox.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\AutoEscape.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/AutoEscape.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Block.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Block.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\BlockReference.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/BlockReference.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Body.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Body.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\CheckSecurity.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/CheckSecurity.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Do.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Do.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Embed.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Embed.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Array.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Array.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\AssignName.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/AssignName.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Add.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Add.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\And.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/And.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\BitwiseAnd.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/BitwiseAnd.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\BitwiseOr.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/BitwiseOr.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\BitwiseXor.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/BitwiseXor.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Concat.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Concat.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Div.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Div.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\EndsWith.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/EndsWith.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Equal.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Equal.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\FloorDiv.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/FloorDiv.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Greater.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Greater.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\GreaterEqual.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/GreaterEqual.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\In.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/In.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Less.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Less.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\LessEqual.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/LessEqual.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Matches.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Matches.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Mod.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Mod.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Mul.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Mul.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\NotEqual.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/NotEqual.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\NotIn.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/NotIn.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Or.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Or.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Power.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Power.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Range.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Range.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\StartsWith.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/StartsWith.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Binary\Sub.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Binary/Sub.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\BlockReference.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/BlockReference.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Call.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Call.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Conditional.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Conditional.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Constant.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Constant.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\ExtensionReference.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/ExtensionReference.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Filter.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Filter.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Filter\Default.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Filter/Default.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Function.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Function.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\GetAttr.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/GetAttr.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\MethodCall.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/MethodCall.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Name.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Name.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Parent.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Parent.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\TempName.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/TempName.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Constant.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Constant.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Defined.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Defined.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Divisibleby.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Divisibleby.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Even.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Even.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Null.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Null.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Odd.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Odd.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Test\Sameas.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Test/Sameas.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Unary.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Unary.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Unary\Neg.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Unary/Neg.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Unary\Not.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Unary/Not.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Expression\Unary\Pos.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Expression/Unary/Pos.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Flush.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Flush.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\For.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/For.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\ForLoop.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/ForLoop.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\If.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/If.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Import.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Import.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Include.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Include.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Macro.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Macro.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Module.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Module.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Print.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Print.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Sandbox.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Sandbox.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\SandboxedPrint.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/SandboxedPrint.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Set.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Set.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\SetTemp.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/SetTemp.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Spaceless.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Spaceless.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Node\Text.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Node/Text.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Parser.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Parser.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\ParserInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/ParserInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Dumper\Blackfire.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Dumper/Blackfire.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Dumper\Html.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Dumper/Html.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Dumper\Text.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Dumper/Text.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\NodeVisitor\Profiler.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/NodeVisitor/Profiler.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Node\EnterProfile.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Node/EnterProfile.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Node\LeaveProfile.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Node/LeaveProfile.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Profiler\Profile.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Profiler/Profile.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityError.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityError.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityNotAllowedFilterError.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityNotAllowedFilterError.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityNotAllowedFunctionError.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityNotAllowedFunctionError.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityNotAllowedTagError.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityNotAllowedTagError.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityPolicy.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityPolicy.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Sandbox\SecurityPolicyInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Sandbox/SecurityPolicyInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\SimpleFilter.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/SimpleFilter.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\SimpleFunction.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/SimpleFunction.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\SimpleTest.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/SimpleTest.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Template.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Template.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TemplateInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TemplateInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TestCallableInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TestCallableInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TestInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TestInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test\Function.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test/Function.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test\IntegrationTestCase.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test/IntegrationTestCase.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test\Method.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test/Method.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test\Node.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test/Node.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Test\NodeTestCase.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Test/NodeTestCase.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\Token.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/Token.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParserBroker.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParserBroker.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParserBrokerInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParserBrokerInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParserInterface.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParserInterface.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\AutoEscape.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/AutoEscape.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Block.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Block.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Do.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Do.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Embed.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Embed.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Extends.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Extends.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Filter.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Filter.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Flush.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Flush.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\For.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/For.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\From.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/From.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\If.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/If.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Import.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Import.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Include.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Include.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Macro.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Macro.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Sandbox.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Sandbox.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Set.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Set.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Spaceless.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Spaceless.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenParser\Use.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenParser/Use.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\Tom\BIOSCOOP\src\Bioscoop\Libraries\Twig\TokenStream.php" afterPath="$PROJECT_DIR$/src/Cinema/Libraries/Twig/TokenStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BIOSCOOP.iml" afterPath="$PROJECT_DIR$/.idea/BIOSCOOP.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doctrine.loader.php" afterPath="$PROJECT_DIR$/doctrine.loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BIOSCOOP.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +208,33 @@
   <component name="FavoritesManager">
     <favorites_list name="BIOSCOOP" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Shows.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/Entities/Shows.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06085919" vertical-offset="0" max-vertical-offset="838">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Bioscoop/Entities/Film.php" />
+        <option value="$PROJECT_DIR$/src/Bioscoop/Entities/Shows.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Entities/Shows.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Entities/Film.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -32,14 +245,14 @@
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -87,7 +300,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bioscoop" />
+              <option name="myItemId" value="Cinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BIOSCOOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BIOSCOOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -98,8 +333,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -113,22 +371,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -156,5 +414,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Entities/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26372316" vertical-offset="0" max-vertical-offset="901">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Entities/Shows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06085919" vertical-offset="0" max-vertical-offset="838">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
