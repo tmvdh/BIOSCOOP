@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Machine: 127.0.0.1
--- Gegenereerd op: 01 apr 2015 om 13:34
+-- Gegenereerd op: 01 apr 2015 om 13:58
 -- Serverversie: 5.6.21
 -- PHP-versie: 5.6.3
 
@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `film`
+-- Tabelstructuur voor tabel `films`
 --
 
-CREATE TABLE IF NOT EXISTS `film` (
+CREATE TABLE IF NOT EXISTS `films` (
 `Film_ID` int(10) unsigned NOT NULL,
   `Title` varchar(45) NOT NULL,
   `Year` year(4) NOT NULL,
@@ -61,10 +61,10 @@ CREATE TABLE IF NOT EXISTS `shows` (
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `ticket`
+-- Tabelstructuur voor tabel `tickets`
 --
 
-CREATE TABLE IF NOT EXISTS `ticket` (
+CREATE TABLE IF NOT EXISTS `tickets` (
 `Ticket_ID` int(10) unsigned NOT NULL,
   `User_ID` int(10) unsigned NOT NULL,
   `Show_ID` int(10) unsigned NOT NULL,
@@ -74,10 +74,10 @@ CREATE TABLE IF NOT EXISTS `ticket` (
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `user`
+-- Tabelstructuur voor tabel `users`
 --
 
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE IF NOT EXISTS `users` (
 `User_ID` int(10) unsigned NOT NULL,
   `Fname` varchar(45) NOT NULL,
   `Sname` varchar(45) NOT NULL,
@@ -89,9 +89,9 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 --
--- Indexen voor tabel `film`
+-- Indexen voor tabel `films`
 --
-ALTER TABLE `film`
+ALTER TABLE `films`
  ADD PRIMARY KEY (`Film_ID`);
 
 --
@@ -107,15 +107,15 @@ ALTER TABLE `shows`
  ADD PRIMARY KEY (`Show_ID`), ADD KEY `FK_film` (`Film_ID`), ADD KEY `FK_screen` (`Screen_ID`);
 
 --
--- Indexen voor tabel `ticket`
+-- Indexen voor tabel `tickets`
 --
-ALTER TABLE `ticket`
+ALTER TABLE `tickets`
  ADD PRIMARY KEY (`Ticket_ID`), ADD KEY `FK_show` (`Show_ID`), ADD KEY `FK_user` (`User_ID`);
 
 --
--- Indexen voor tabel `user`
+-- Indexen voor tabel `users`
 --
-ALTER TABLE `user`
+ALTER TABLE `users`
  ADD PRIMARY KEY (`User_ID`);
 
 --
@@ -123,9 +123,9 @@ ALTER TABLE `user`
 --
 
 --
--- AUTO_INCREMENT voor een tabel `film`
+-- AUTO_INCREMENT voor een tabel `films`
 --
-ALTER TABLE `film`
+ALTER TABLE `films`
 MODIFY `Film_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT voor een tabel `screens`
@@ -138,14 +138,14 @@ MODIFY `Screen_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 ALTER TABLE `shows`
 MODIFY `Show_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT voor een tabel `ticket`
+-- AUTO_INCREMENT voor een tabel `tickets`
 --
-ALTER TABLE `ticket`
+ALTER TABLE `tickets`
 MODIFY `Ticket_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT voor een tabel `user`
+-- AUTO_INCREMENT voor een tabel `users`
 --
-ALTER TABLE `user`
+ALTER TABLE `users`
 MODIFY `User_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 --
 -- Beperkingen voor geëxporteerde tabellen
@@ -155,15 +155,15 @@ MODIFY `User_ID` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- Beperkingen voor tabel `shows`
 --
 ALTER TABLE `shows`
-ADD CONSTRAINT `FK_film` FOREIGN KEY (`Film_ID`) REFERENCES `film` (`Film_ID`),
+ADD CONSTRAINT `FK_film` FOREIGN KEY (`Film_ID`) REFERENCES `films` (`Film_ID`),
 ADD CONSTRAINT `FK_screen` FOREIGN KEY (`Screen_ID`) REFERENCES `screens` (`Screen_ID`);
 
 --
--- Beperkingen voor tabel `ticket`
+-- Beperkingen voor tabel `tickets`
 --
-ALTER TABLE `ticket`
+ALTER TABLE `tickets`
 ADD CONSTRAINT `FK_show` FOREIGN KEY (`Show_ID`) REFERENCES `shows` (`Show_ID`),
-ADD CONSTRAINT `FK_user` FOREIGN KEY (`User_ID`) REFERENCES `user` (`User_ID`);
+ADD CONSTRAINT `FK_user` FOREIGN KEY (`User_ID`) REFERENCES `users` (`User_ID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
