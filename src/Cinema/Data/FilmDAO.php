@@ -48,6 +48,22 @@ class FilmDAO {
         return $list;
     }
 
+    public function getShows($Film_ID, $date){
+        $list = array();
+        $sql="select Title, TIME(Time)
+              from films inner join shows on films.Film_ID = shows.Films.Film_ID
+              where films.Film_ID = $Film_ID";
+        $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+        $resultSet = $dbh->query($sql);
+        $result = $resultSet->fetch();
+        foreach ($result as $row){
+            $line = new Film($row["Film_ID"],  $row["Title"], $row["Year"], $row["Description"], $row["Runtime"]);
+            array_push($list, $line);
+        }
+        $dbh = null;
+        return $list;
+    }
+
 
 
 }

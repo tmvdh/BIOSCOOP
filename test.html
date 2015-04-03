@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Radio button test</title>
+<style>
+	input[type="radio"] + label{
+		display: none;
+		background: url('img/seats/2.png');
+	}
+	input[type="radio"]:not(old):checked {
+		background: url('img/seats/1.png');
+	}
+	input.black :not(old){
+		background: url('img/seats/0.png');
+	}
+</style>
+</head>
+<body>
+<form action="" method="get">
+	
+			<input type="radio" name="seat" value="1">
+			<input type="radio" name="seat" value="2">
+			<input type="radio" name="seat" value="3">
+			<input type="radio" name="seat" value="4">
+			<input type="radio" name="seat" value="5">
+			<input type="radio" value="18" checked name="black">
+		<br>
+			<input type="date" name="date">
+		<br>
+	
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
