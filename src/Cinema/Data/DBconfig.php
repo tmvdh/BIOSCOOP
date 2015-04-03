@@ -1,5 +1,5 @@
 <?php
-namespace Wijnhandel\Data;
+namespace Cinema\Data;
 class DBConfig {
 public static $DB_CONNSTRING = "mysql:host=localhost;dbname=cinema";
 public static $DB_USERNAME = "website";

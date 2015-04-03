@@ -31,4 +31,19 @@ class TicketDAO {
             $dbh->exec($sql);
             $dbh = null;
         }
+
+        public function getAllTickets($Show_ID){
+            $seats = array();
+            $sql = "select screens.Seats as NumberOfSeats, Width, tickets.Seat as ReservedSeat
+                    from tickets inner join (screens inner join shows on screens.Screen_ID = shows.Screen_ID) on tickets.Show_ID = shows.Show_ID";
+            $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+            $resultSet = $dbh->query($sql);
+            $result = $resultSet->fetch();
+            $seats = array_fill ( 1 , $result["NumberOfSeats"] , 0 );
+            foreach ($ticket in $result){
+                $seats['$result["ReservedSeat"]'] = 1;
+            }
+            return $seats;
+            $dbh = null;
+        }
 }

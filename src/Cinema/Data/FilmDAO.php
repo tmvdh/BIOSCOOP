@@ -16,7 +16,7 @@ use Cinema\Entities\Film;
 class FilmDAO {
 
     public function getFilm($id){
-        $sql = "select Film_ID, Title, Year, Description, Runtime from films where Film_ID = $id"
+        $sql = "select Film_ID, Title, Year, Description, Runtime from films where Film_ID = $id";
         $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
         $resultSet = $dbh->query($sql);
         $result = $resultSet->fetch();
@@ -34,15 +34,17 @@ class FilmDAO {
 
     public function getFilmsByDate($date){
         $list = array();
-        $sql="select films.Film_ID, Title, Year, Description, Runtime
-              from Films inner join shows on films.Film_ID = shows.Film_ID
-              where DATE(Time)=$date AND Time > NOW()";
+        $sql="select films.Film_ID as Film_ID, Title, Year, Description, Runtime from Films inner join shows on films.Film_ID = shows.Film_ID where DATE(Time)='$date' AND Time > NOW()";
+        echo $sql;
         $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
         $resultSet = $dbh->query($sql);
         $result = $resultSet->fetch();
         foreach ($result as $row){
-            $line = new Film($row["Film_ID"],  $row["Title"], $row["Year"], $row["Description"], $row["Runtime"]);
-            array_push($list, $line);
+            print_r($result);
+            $line = new Film($row["Film_ID"], $row["Title"], $row["Year"], $row["Description"], $row["Runtime"]);
+
+
+           array_push($list, $line);
         }
         $dbh = null;
         return $list;
@@ -52,7 +54,7 @@ class FilmDAO {
         $list = array();
         $sql="select Title, TIME(Time)
               from films inner join shows on films.Film_ID = shows.Films.Film_ID
-              where films.Film_ID = $Film_ID";
+              where films.Film_ID = $Film_ID AND DATE(Time)=$date AND Time > NOW()";
         $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
         $resultSet = $dbh->query($sql);
         $result = $resultSet->fetch();
