@@ -8,6 +8,9 @@
 
 namespace Cinema\Data;
 
+use PDO;
+use Cinema\Data\DBConfig;
+
 
 class ShowDAO {
 
