@@ -9,4 +9,9 @@
 session_start();
 include ("doctrine.loader.php");
 
-use Cinema\Business\
+use Cinema\Data\FilmDAO;
+use Cinema\Entities\Fi$lm;
+
+
+$FilmDAO = new FilmDAO();
+$list = $FilmDAO->getFilmsByDate(2015-04-04);
