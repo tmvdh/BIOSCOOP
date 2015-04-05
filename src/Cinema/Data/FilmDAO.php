@@ -34,11 +34,11 @@ class FilmDAO {
 
     public function getFilmsByDate($date){
         $list = array();
-        $sql="select distinct films.Film_ID from Films inner join shows on films.Film_ID = shows.Film_ID where DATE(Time)='$date' AND Time > NOW()";
+        $sql="select distinct Title from Films inner join shows on films.Film_ID = shows.Film_ID where DATE(Time)='$date' AND Time > NOW()";
         $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
         $resultSet = $dbh->query($sql);
         foreach ($resultSet as $row ){
-           $line = $row["Film_ID"];
+           $line = $row["Title"];
             array_push($list, $line);
         }
         $dbh = null;

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c07f8ac-62a1-4132-8158-c39e61743953" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" afterPath="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" afterPath="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BIOSCOOP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="663">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,26 +49,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmDAO.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FilmDAO.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077" vertical-offset="170" max-vertical-offset="1088">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.53125" vertical-offset="170" max-vertical-offset="1088">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
-                <marker date="1428266271273" expanded="true" signature="254:331" placeholder="select Film_..." />
-                <marker date="1428266271273" expanded="true" signature="773:873" placeholder="insert into ..." />
-                <marker date="1428266271273" expanded="true" signature="1110:1242" placeholder="select Title..Films..." />
-                <marker date="1428266271273" expanded="true" signature="1642:1830" placeholder="select Title..." />
+                <marker date="1428261899416" expanded="true" signature="254:331" placeholder="select Film_..." />
+                <marker date="1428261899416" expanded="true" signature="773:873" placeholder="insert into ..." />
+                <marker date="1428261899416" expanded="true" signature="1110:1234" placeholder="select Title..Films..." />
+                <marker date="1428261899416" expanded="true" signature="1632:1820" placeholder="select Title..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pickFilm.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pickFilm.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.273752" vertical-offset="0" max-vertical-offset="621">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -100,10 +100,10 @@
         <option value="$PROJECT_DIR$/src/Cinema/Business/TicketService.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.html" />
         <option value="$PROJECT_DIR$/src/Cinema/Business/FilmService.php" />
-        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickDate.twig" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickDate.twig" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" />
+        <option value="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" />
       </list>
     </option>
   </component>
@@ -513,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="663">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -527,24 +527,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="170" max-vertical-offset="1088">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <marker date="1428266271273" expanded="true" signature="254:331" placeholder="select Film_..." />
-            <marker date="1428266271273" expanded="true" signature="773:873" placeholder="insert into ..." />
-            <marker date="1428266271273" expanded="true" signature="1110:1242" placeholder="select Title..Films..." />
-            <marker date="1428266271273" expanded="true" signature="1642:1830" placeholder="select Title..." />
-          </folding>
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.273752" vertical-offset="0" max-vertical-offset="621">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.53125" vertical-offset="170" max-vertical-offset="1088">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <marker date="1428261899416" expanded="true" signature="254:331" placeholder="select Film_..." />
+            <marker date="1428261899416" expanded="true" signature="773:873" placeholder="insert into ..." />
+            <marker date="1428261899416" expanded="true" signature="1110:1234" placeholder="select Title..Films..." />
+            <marker date="1428261899416" expanded="true" signature="1632:1820" placeholder="select Title..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,8 +8,8 @@
 <h3>Kies een Film</h3>
 <br>
 <form action="index.php" method="get">
-{% for film in filmlist %}
-<p>{{ Film_ID }}</p>
+{% for title in filmlist %}
+<p>{{ title }}<br>{{ ID }}</p>
 {% endfor %}
 <br>
 <input type="submit" value="Kies">
