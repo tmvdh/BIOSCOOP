@@ -17,6 +17,7 @@ if(!isset($_POST["date"]) || empty($_POST["date"])) {
     $FilmList = $FilmService->getFilmsByDate($_POST["date"]);
     $view = $twig->render("pickFilm.twig", array("filmlist" => $FilmList));
     print($view);
+    print_r($FilmList);
 # date and film -> pick show
 }else {
     $_SESSION["film"] = $_POST["film"];
