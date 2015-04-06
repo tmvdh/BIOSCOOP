@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kies voorstelling</title>
+</head>
+<body>
+<h3>Kies een voorstelling</h3>
+{{ session["film"] }}
+<form action="index.php" method="post">
+{% for show in shows %}
+
+<input type="radio" value="{{ show['ID'] }}" id="{{ show['ID'] }}" name="show"><label for="{{ show['ID'] }}">{{ show['Time'] }}</label><br>
+
+{% endfor %}
+ <br>
+ <input type="submit" value="Volgende">
+ </form>
+</body>
+</html>

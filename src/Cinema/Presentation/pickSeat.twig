@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kies een zetel</title>
+    // <link href="css/style.css" link="stylesheet" type="text/css">
+    <style>
+        input {
+
+
+        }
+
+    </style>
+</head>
+<body>
+<h3>Kies een zetel</h3>
+<form action="index.php" method="get">
+{% for seat in seats %}
+    {% if seat %}
+        <img src="img/seats/taken.png">
+    {% else %}
+        <input type="radio" value="{{ loop.index }}" name="seat" id="{{ loop.index }}" class="css-checkbox"><label for="{{ loop.index }}" class="css-label"></label>
+    {% endif %}
+
+    {% if loop.index is divisibleby(15) %}
+        <br>
+    {% endif %}
+{% endfor %}
+<br>
+    <!-- Boxes for user info -->
+<input type="submit" value="Verder">
+</form>
+</body>
+</html>

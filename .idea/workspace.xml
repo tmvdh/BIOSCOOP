@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c07f8ac-62a1-4132-8158-c39e61743953" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cinema/Presentation/pickShow.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/seats/0.png" afterPath="$PROJECT_DIR$/img/seats/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/seats/1.png" afterPath="$PROJECT_DIR$/img/seats/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/seats/2.png" afterPath="$PROJECT_DIR$/img/seats/2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" afterPath="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php" afterPath="$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php" afterPath="$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/business/TicketService.php" afterPath="$PROJECT_DIR$/src/Cinema/business/TicketService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" afterPath="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Radio Button/test.html" afterPath="$PROJECT_DIR$/Radio Button/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BIOSCOOP.iws" />
@@ -32,9 +42,60 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.846154" vertical-offset="603" max-vertical-offset="1309">
+              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pickSeat.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickSeat.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81085527" vertical-offset="0" max-vertical-offset="663">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/business/TicketService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="493">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="e#35#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="782">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <marker date="1428339394774" expanded="true" signature="268:308" placeholder="select * fro..tickets..." />
+                <marker date="1428339394774" expanded="true" signature="762:840" placeholder="insert into ..." />
+                <marker date="1428339394774" expanded="true" signature="1109:1150" placeholder="select Seat ..tickets..." />
+                <marker date="1428339394774" expanded="true" signature="1109:1151" placeholder="select scree..screens..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
+              <caret line="18" column="137" selection-start-line="18" selection-start-column="137" selection-end-line="18" selection-end-column="137" />
+              <folding>
+                <element signature="e#124#132#0#PHP" expanded="true" />
+                <marker date="1428341441918" expanded="true" signature="241:352" placeholder="select Seats..screens..." />
+                <marker date="1428341441918" expanded="true" signature="241:353" placeholder="select Seats..screens..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,17 +110,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmDAO.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilmDAO.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53125" vertical-offset="170" max-vertical-offset="1088">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="340" max-vertical-offset="1190">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
-                <marker date="1428261899416" expanded="true" signature="254:331" placeholder="select Film_..." />
-                <marker date="1428261899416" expanded="true" signature="773:873" placeholder="insert into ..." />
-                <marker date="1428261899416" expanded="true" signature="1110:1234" placeholder="select Title..Films..." />
-                <marker date="1428261899416" expanded="true" signature="1632:1820" placeholder="select Title..." />
+                <marker date="1428334029560" expanded="true" signature="254:331" placeholder="select Film_..." />
+                <marker date="1428334029560" expanded="true" signature="773:873" placeholder="insert into ..." />
+                <marker date="1428334029560" expanded="true" signature="1110:1186" placeholder="select disti..Films..." />
+                <marker date="1428334029560" expanded="true" signature="1799:1937" placeholder="select Title..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pickShow.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickShow.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="425">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,8 +138,8 @@
       <file leaf-file-name="pickFilm.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="408">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -91,19 +162,25 @@
         <option value="$PROJECT_DIR$/src/Cinema/Entities/Ticket.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Data/UserDAO.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Data/ShowDAO.php" />
-        <option value="$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php" />
         <option value="$PROJECT_DIR$/src/Cinema/index.php" />
         <option value="$PROJECT_DIR$/src/Cinema/business/FilmService.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Data/DBconfig.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickDate.html" />
-        <option value="$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Business/TicketService.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.html" />
         <option value="$PROJECT_DIR$/src/Cinema/Business/FilmService.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickDate.twig" />
         <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickShow.html" />
+        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickShow.twig" />
         <option value="$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickSeat.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/business/TicketService.php" />
+        <option value="$PROJECT_DIR$/src/Cinema/Presentation/pickSeat.twig" />
       </list>
     </option>
   </component>
@@ -140,6 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,14 +320,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BIOSCOOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BIOSCOOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -318,13 +409,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -350,6 +441,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1292">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/business/FilmService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="476">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428334029560" expanded="true" signature="254:331" placeholder="select Film_..." />
+            <marker date="1428334029560" expanded="true" signature="773:873" placeholder="insert into ..." />
+            <marker date="1428334029560" expanded="true" signature="1110:1186" placeholder="select disti..Films..." />
+            <marker date="1428334029560" expanded="true" signature="1799:1937" placeholder="select Title..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="408">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/business/FilmService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="476">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428334029560" expanded="true" signature="254:331" placeholder="select Film_..." />
+            <marker date="1428334029560" expanded="true" signature="773:873" placeholder="insert into ..." />
+            <marker date="1428334029560" expanded="true" signature="1110:1186" placeholder="select disti..Films..." />
+            <marker date="1428334029560" expanded="true" signature="1799:1937" placeholder="select Title..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1173">
@@ -469,38 +642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/ShowDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16425121" vertical-offset="0" max-vertical-offset="621">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="621">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="816">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cinema/Entities/Film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2721417" vertical-offset="86" max-vertical-offset="901">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickDate.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -511,11 +656,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickDate.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="621">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="408">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/ShowDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.136876" vertical-offset="0" max-vertical-offset="621">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/TicketDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="782">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <marker date="1428339394774" expanded="true" signature="268:308" placeholder="select * fro..tickets..." />
+            <marker date="1428339394774" expanded="true" signature="762:840" placeholder="insert into ..." />
+            <marker date="1428339394774" expanded="true" signature="1109:1150" placeholder="select Seat ..tickets..." />
+            <marker date="1428339394774" expanded="true" signature="1109:1151" placeholder="select scree..screens..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/ScreenDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
+          <caret line="18" column="137" selection-start-line="18" selection-start-column="137" selection-end-line="18" selection-end-column="137" />
+          <folding>
+            <element signature="e#124#132#0#PHP" expanded="true" />
+            <marker date="1428341441918" expanded="true" signature="241:352" placeholder="select Seats..screens..." />
+            <marker date="1428341441918" expanded="true" signature="241:353" placeholder="select Seats..screens..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="340" max-vertical-offset="1190">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <marker date="1428334029560" expanded="true" signature="254:331" placeholder="select Film_..." />
+            <marker date="1428334029560" expanded="true" signature="773:873" placeholder="insert into ..." />
+            <marker date="1428334029560" expanded="true" signature="1110:1186" placeholder="select disti..Films..." />
+            <marker date="1428334029560" expanded="true" signature="1799:1937" placeholder="select Title..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,24 +733,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickFilm.twig">
+    <entry file="file://$PROJECT_DIR$/src/Cinema/business/TicketService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="493">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#35#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickShow.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="425">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Data/FilmDAO.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53125" vertical-offset="170" max-vertical-offset="1088">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <marker date="1428261899416" expanded="true" signature="254:331" placeholder="select Film_..." />
-            <marker date="1428261899416" expanded="true" signature="773:873" placeholder="insert into ..." />
-            <marker date="1428261899416" expanded="true" signature="1110:1234" placeholder="select Title..Films..." />
-            <marker date="1428261899416" expanded="true" signature="1632:1820" placeholder="select Title..." />
-          </folding>
+        <state vertical-scroll-proportion="-8.846154" vertical-offset="603" max-vertical-offset="1309">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cinema/Presentation/pickSeat.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81085527" vertical-offset="0" max-vertical-offset="663">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,9 +3,8 @@
 <head>
 <title>Radio button test</title>
 <style>
-	input[type="radio"] + label{
-		display: none;
-		background: url('img/seats/2.png');
+	input[type="radio"]{
+		visibility:	hidden;
 	}
 	input[type="radio"]:not(old):checked {
 		background: url('img/seats/1.png');
@@ -13,16 +12,19 @@
 	input.black :not(old){
 		background: url('img/seats/0.png');
 	}
+	input[type="radio"]:checked+label {
+		border: 5px solid #0F0;
+	}
 </style>
 </head>
 <body>
 <form action="" method="get">
 	
-			<input type="radio" name="seat" value="1">
-			<input type="radio" name="seat" value="2">
-			<input type="radio" name="seat" value="3">
-			<input type="radio" name="seat" value="4">
-			<input type="radio" name="seat" value="5">
+			<input type="radio" name="seat" value="1" name="number" id="1"><label for="1">Test</label><br>
+			<input type="radio" name="seat" value="2" name="number" id="2"><label for="2">Test</label><br>
+			<input type="radio" name="seat" value="3" name="number" id="3"><label for="3">Test</label><br>
+			<input type="radio" name="seat" value="4" name="number" id="4"><label for="4">Test</label><br>
+			<input type="radio" name="seat" value="5" name="number" id="5"><label for="5">Test</label><br>
 			<input type="radio" value="18" checked name="black">
 		<br>
 			<input type="date" name="date">
