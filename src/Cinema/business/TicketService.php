@@ -36,4 +36,10 @@ class TicketService {
         return $user;
 
     }
+
+    public function checkSeat($Show_ID, $Seat){
+        $TicketDAO = new TicketDAO();
+        $check = $TicketDAO->checkSeat($Show_ID, $Seat);
+        return $check;
+    }
 }

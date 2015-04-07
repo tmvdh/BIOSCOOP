@@ -31,6 +31,12 @@ Class FilmService{
 
     }
 
+    public function getScreen($Show_ID){
+        $FilmDAO = new FilmDAO();
+        $screen = $FilmDAO->getScreen($Show_ID);
+        return $screen;
+
+    }
 
 
 }

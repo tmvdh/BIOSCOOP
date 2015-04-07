@@ -26,9 +26,12 @@ class TicketDAO {
         }
 
         public function addTicket($User_ID, $Show_ID, $Seat){
-            echo '<br> TicketDAO <br>';
-
-            $barcode = strtoupper(sha1($User_ID . $Show_ID . $Seat));
+                #generate barcode
+                $charset = str_split('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
+                $barcode ="";
+                while (strlen($barcode)<20){
+                    $barcode .= $charset[array_rand($charset)];
+                }
 
             $sql = "insert into tickets (User_ID, Show_ID, Seat, Barcode) values ('$User_ID', '$Show_ID', '$Seat', '$barcode')";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
@@ -48,5 +51,15 @@ class TicketDAO {
             }
             return $list;
             $dbh = null;
+        }
+
+        public function checkSeat($Show_ID, $Seat){
+            $sql = "select count(*) from tickets where Show_ID = $Show_ID AND Seat = $Seat";
+            $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+            $resultSet = $dbh->query($sql);
+            $check = $resultSet->fetch();
+            $dbh = null;
+            return $check;
+            #NB Check returns true if seat taken
         }
 }

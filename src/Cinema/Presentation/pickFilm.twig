@@ -8,6 +8,10 @@
 <body>
 <h3>Kies een Film</h3>
 <br>
+    {% if filmlist is empty %}
+        <p>Geen films beschikbaar voor deze datum.</p>
+    {% endif %}
+<br>
 <form action="index.php" method="post">
 {% for ID in filmlist %}
 <input type="radio" value={{ ID }} id={{ ID }} name="film"><label for={{ ID }}><img src="img/Films/{{ ID }}.png"></label></p>

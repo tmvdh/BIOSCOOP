@@ -85,6 +85,16 @@ class FilmDAO {
         return $time;
 
     }
+    public function getScreen($Show_ID){
+        $sql = "select Screen_ID from shows where Show_ID = $Show_ID";
+        $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+        $resultSet = $dbh->query($sql);
+        $result = $resultSet->fetch();
+        $screen = $result["Screen_ID"];
+        $dbh = null;
+        return $screen;
+    }
+
 
 
 

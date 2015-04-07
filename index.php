@@ -6,13 +6,6 @@ use Cinema\Business\FilmService;
 use Cinema\Business\TicketService;
 
 
-if(isset($_POST)){
-    echo '$_POST = ';
-    var_dump($_POST);
-    echo '<br>';
-}
-
-
 # if date -> select film
 if(isset($_POST["date"]) && !empty($_POST["date"])){
     session_unset();
@@ -52,28 +45,25 @@ elseif(isset($_POST["seat"]) && !empty($_POST["seat"])) {
             $_SESSION["title"] = $title;
             $time = $FilmService->getShowtime($_SESSION["show"]);
             $_SESSION["time"] = $time;
+            $screen = $FilmService->getScreen($_SESSION["show"]);
+            $_SESSION["screen"] = $screen;
 
             $view = $twig->render("confirm.twig", array("session" => $_SESSION));
             print($view);
         }
-/*        else {
+        else {
             echo 'Alle velden invullen, a.u.b.';
             $TicketService = new TicketService();
             $seats = $TicketService->getAllTickets($_SESSION["show"]);
             $view = $twig->render("pickSeat.twig", array("seats" => $seats));
             print($view);
         }
-*/
+
 }
 # else -> select date
 else {
     $view = $twig->render("pickDate.twig");
     print($view);
-}
-
-if(isset($_SESSION)){
-    echo '$_SESSION = ';
-    var_dump($_SESSION);
 }
 
 
