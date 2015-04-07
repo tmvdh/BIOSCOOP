@@ -5,21 +5,68 @@
     <title>Kies een zetel</title>
     // <link href="css/style.css" link="stylesheet" type="text/css">
     <style>
-        input {
+        .css-checkbox {
+            position:absolute;
+            z-index:-1000;
+            left:-1000px;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            height:1px;
+            width:1px;
+            margin:-1px;
+            padding:0;
+            border:0;
+        }
 
+        input[type=radio].css-checkbox + label.css-label {
+            padding-left:35px;
+            height:30px;
+            display:inline-block;
+            line-height:30px;
+            background-repeat:no-repeat;
+            background-position: 0 0;
+            font-size:30px;
+            vertical-align:middle;
+            cursor:pointer;
 
         }
 
+        input[type=radio].css-checkbox:checked + label.css-label {
+            background-position: 0 -30px;
+        }
+        label.css-label {
+            background-image:url(img/seats/radiogreen.png);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        img.checkbox {
+            padding-left:0px;
+            padding-right:3px;
+            height:30px;
+            display:inline-block;
+            line-height:30px;
+            background-repeat:no-repeat;
+            background-position: 0 0;
+            font-size:30px;
+            vertical-align:middle;
+            cursor:pointer;
+        }
     </style>
 </head>
 <body>
-<h3>Kies een zetel</h3>
+<h2>Kies een zetel</h2>
 <form action="index.php" method="post">
 {% for seat in seats %}
     {% if seat %}
-        <img src="img/seats/taken.png">
+
+        <img src="img/seats/radioblack.png" class="checkbox">
     {% else %}
-        <input type="radio" value="{{ loop.index }}" name="seat" id="{{ loop.index }}" class="css-checkbox"><label for="{{ loop.index }}" class="css-label"></label>
+        <input type="radio" name="seat" id="{{ loop.index }}" class="css-checkbox"><label for="{{ loop.index }}" class="css-label"></label>
     {% endif %}
 
     {% if loop.index is divisibleby(15) %}

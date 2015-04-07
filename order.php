@@ -14,7 +14,8 @@ use Cinema\Business\TicketService;
             $TicketSvc = new TicketService();
             $seatcheck = $TicketSvc->checkSeat($_SESSION["show"], $_SESSION["seat"]);
             if($seatcheck){
-              echo '<h4>Sorry, someone has stolen your seat!</h4>';
+              echo '<h4>Sorry, iemand was je te snel af!</h4>';
+              echo '<br><a href="index.php">Probeer opnieuw</a>';
             }
             else {
                 $user = $TicketSvc->addUser($_SESSION["fname"], $_SESSION["sname"], $_SESSION["email"]);

@@ -20,6 +20,8 @@ elseif(isset($_POST["film"]) && !empty($_POST["film"])){
     $_SESSION["film"] = $_POST["film"];
     $FilmService = new FilmService();
     $shows = $FilmService->getShows($_SESSION["film"], $_SESSION["date"]);
+    $title = $FilmService->getTitle($_SESSION["film"]);
+    $_SESSION["title"] = $title;
     $view = $twig->render("pickShow.twig", array("shows" => $shows, "session" => $_SESSION));
     print($view);
 }
