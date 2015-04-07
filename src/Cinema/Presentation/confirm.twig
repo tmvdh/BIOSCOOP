@@ -11,10 +11,12 @@
     <li>Achternaam: {{ session["sname"] }}</li>
     <li>E-mailadres: {{ session["email"] }}</li>
    <li>Film: {{ session["title"] }}</li>
-    <li>Voorstelling: {{ session["show"] }}</li>
+    <li>Voorstelling: {{ session["date"] }} om {{ session["time"] }}</li>
     <li>Stoelnummer: {{ session["seat"] }}</li>
 
 </ul>
-<button href="order.php">Bevestigen</button>
+<form action="order.php">
+    <input type="submit" value="Bevestigen">
+</form>
 </body>
 </html>

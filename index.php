@@ -53,6 +53,8 @@ elseif(isset($_POST["seat"]) && !empty($_POST["seat"])) {
             $FilmService = new FilmService();
             $title = $FilmService->getTitle($_SESSION["film"]);
             $_SESSION["title"] = $title;
+            $time = $FilmService->getShowtime($_SESSION["show"]);
+            $_SESSION["time"] = $time;
 
             $view = $twig->render("confirm.twig", array("session" => $_SESSION));
             print($view);

@@ -25,8 +25,8 @@ class TicketDAO {
             return $ticket;
         }
 
-        public function addTicket($User_ID, $Show_ID, $Seat){
-            $sql = "insert into tickets (UserID, Show_ID, Seat) values ($User_ID, $Show_ID, $Seat)";
+        public function addTicket($User_ID, $Show_ID, $Seat, $Barcode){
+            $sql = "insert into tickets (UserID, Show_ID, Seat, Barcode) values ($User_ID, $Show_ID, $Seat, $Barcode)";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
             $dbh->exec($sql);
             $dbh = null;

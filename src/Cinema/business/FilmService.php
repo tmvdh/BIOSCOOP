@@ -24,6 +24,13 @@ Class FilmService{
         return $title;
     }
 
+    public function getShowtime($Show_ID){
+        $FilmDAO = new FilmDAO();
+        $time = $FilmDAO->getShowtime($Show_ID);
+        return $time;
+
+    }
+
 
 
 }

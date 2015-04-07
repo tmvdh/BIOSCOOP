@@ -75,6 +75,16 @@ class FilmDAO {
         $dbh = null;
         return $list;
     }
+    public function getShowtime($Show_ID){
+        $sql = "select TIME(Time) as Time from shows where Show_ID = $Show_ID";
+        $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+        $resultSet = $dbh->query($sql);
+        $result = $resultSet->fetch();
+        $time = $result["Time"];
+        $dbh = null;
+        return $time;
+
+    }
 
 
 
