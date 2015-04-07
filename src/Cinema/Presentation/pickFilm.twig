@@ -3,14 +3,14 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Pick Film!</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 <h3>Kies een Film</h3>
-{{  dump(filmlist) }}
 <br>
-<form action="index.php" method="get">
-{% for film in filmlist %}
-<p>{{ Film_ID }}</p>
+<form action="index.php" method="post">
+{% for ID in filmlist %}
+<input type="radio" value={{ ID }} id={{ ID }} name="film"><label for={{ ID }}><img src="img/Films/{{ ID }}.png"></label></p>
 {% endfor %}
 <br>
 <input type="submit" value="Kies">

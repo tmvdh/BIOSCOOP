@@ -16,7 +16,7 @@ use Cinema\Entities\Ticket;
 class TicketDAO {
 
         public function getTicket($id){
-            $sql = "select * from tickets where Ticket_ID = $id"
+            $sql = "select * from tickets where Ticket_ID = $id";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
             $resultSet = $dbh->query($sql);
             $result = $resultSet->fetch();
@@ -25,25 +25,23 @@ class TicketDAO {
             return $ticket;
         }
 
-        public function addTicket($User_ID, $Show_ID, $Seat){
-            $sql = "insert into tickets (UserID, Show_ID, Seat) values ($User_ID, $Show_ID, $Seat)";
+        public function addTicket($User_ID, $Show_ID, $Seat, $Barcode){
+            $sql = "insert into tickets (UserID, Show_ID, Seat, Barcode) values ($User_ID, $Show_ID, $Seat, $Barcode)";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
             $dbh->exec($sql);
             $dbh = null;
         }
 
         public function getAllTickets($Show_ID){
-            $seats = array();
-            $sql = "select screens.Seats as NumberOfSeats, Width, tickets.Seat as ReservedSeat
-                    from tickets inner join (screens inner join shows on screens.Screen_ID = shows.Screen_ID) on tickets.Show_ID = shows.Show_ID";
+            $list = array();
+            $sql = "select Seat from tickets where Show_ID = $Show_ID ";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
             $resultSet = $dbh->query($sql);
-            $result = $resultSet->fetch();
-            $seats = array_fill ( 1 , $result["NumberOfSeats"] , 0 );
-            foreach ($ticket in $result){
-                $seats['$result["ReservedSeat"]'] = 1;
+            foreach ($resultSet as $row){
+                $seat = $row["Seat"];
+                array_push($list, $seat);
             }
-            return $seats;
+            return $list;
             $dbh = null;
         }
 }
