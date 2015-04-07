@@ -24,6 +24,15 @@ class FilmDAO {
         return $film;
         $dbh = null;
     }
+    public function getTitle($id){
+        $sql = "select Title from films where Film_ID = $id";
+        $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
+        $resultSet = $dbh->query($sql);
+        $result = $resultSet->fetch();
+        $title = $result["Title"];
+        return $title;
+        $dbh = null;
+    }
 
     public function addFilm($title, $year, $description, $runtime){
         $sql = "insert into films (title, year, description, runtime) values ($title, $year, $description, $runtime)";

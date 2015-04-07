@@ -18,6 +18,12 @@ Class FilmService{
         return $shows;
     }
 
+    public function getTitle($Film_ID){
+        $FilmDAO = new FilmDAO();
+        $title = $FilmDAO->getTitle($Film_ID);
+        return $title;
+    }
+
 
 
 }

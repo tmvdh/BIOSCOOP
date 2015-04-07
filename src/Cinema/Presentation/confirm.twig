@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bevestig</title>
+</head>
+<body>
+<h3>Bestelling bevestigen</h3>
+<ul>
+    <li>Voornaam: {{ session["fname"] }}</li>
+    <li>Achternaam: {{ session["sname"] }}</li>
+    <li>E-mailadres: {{ session["email"] }}</li>
+   <li>Film: {{ session["title"] }}</li>
+    <li>Voorstelling: {{ session["show"] }}</li>
+    <li>Stoelnummer: {{ session["seat"] }}</li>
+
+</ul>
+<button href="order.php">Bevestigen</button>
+</body>
+</html>
