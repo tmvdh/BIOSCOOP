@@ -11,10 +11,7 @@ if(isset($_POST)){
     var_dump($_POST);
     echo '<br>';
 }
-if(isset($_SESSION)){
-    echo '$_SESSION = ';
-    var_dump($_SESSION);
-}
+
 
 # if date -> select film
 if(isset($_POST["date"]) && !empty($_POST["date"])){
@@ -74,7 +71,10 @@ else {
     print($view);
 }
 
-
+if(isset($_SESSION)){
+    echo '$_SESSION = ';
+    var_dump($_SESSION);
+}
 
 
 #anything else?

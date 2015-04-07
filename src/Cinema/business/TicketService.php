@@ -24,15 +24,16 @@ class TicketService {
     }
 
     public function addTicket($User_ID, $Show_ID, $Seat){
-        $barcode = strtoupper(sha1($Show_ID . $Seat));
+        // $barcode = strtoupper(sha1($Show_ID . $Seat));
         $TicketDAO = new TicketDAO();
-        $TicketDAO->addTicket($User_ID, $Show_ID, $Seat, $barcode);
-        return $barcode;
+        $ticket = $TicketDAO->addTicket($User_ID, $Show_ID, $Seat);
+        return $ticket;
     }
 
     public function addUser($fname, $sname, $email){
-        $UserDAO = new UserDAO();
-        $user = $UserDAO->addUser($fname, $sname, $email);
+        $userdao = new UserDAO();
+        $user = $userdao->addUser($fname, $sname, $email);
         return $user;
+
     }
 }
