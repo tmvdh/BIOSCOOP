@@ -54,12 +54,13 @@ class TicketDAO {
         }
 
         public function checkSeat($Show_ID, $Seat){
-            $sql = "select count(*) from tickets where Show_ID = $Show_ID AND Seat = $Seat";
+            $sql = "select count(*) as count from tickets where Show_ID = $Show_ID AND Seat = $Seat";
             $dbh = new PDO(DBConfig::$DB_CONNSTRING, DBConfig::$DB_USERNAME, DBConfig::$DB_PASSWORD);
             $resultSet = $dbh->query($sql);
-            $check = $resultSet->fetch();
+            $result = $resultSet->fetch();
+            $check = $result["count"];
             $dbh = null;
             return $check;
-            #NB Check returns true if seat taken
+            #NB Check returns true if seat taken!
         }
 }

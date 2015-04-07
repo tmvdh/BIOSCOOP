@@ -10,19 +10,22 @@ use Cinema\Business\TicketService;
         }
         elseif ($_SESSION["fname"] && $_SESSION["sname"] && $_SESSION["email"] && $_SESSION["show"] && $_SESSION["seat"]) {
 
-#check seat is available!
+            #check seat is available!
+            $TicketSvc = new TicketService();
+            $seatcheck = $TicketSvc->checkSeat($_SESSION["show"], $_SESSION["seat"]);
+            if($seatcheck){
+              echo '<h4>Sorry, someone has stolen your seat!</h4>';
+            }
+            else {
+                $user = $TicketSvc->addUser($_SESSION["fname"], $_SESSION["sname"], $_SESSION["email"]);
+                $barcode = $TicketSvc->addTicket($user, $_SESSION["show"], $_SESSION["seat"]);
 
-
-
-        $TicketSvc = new TicketService();
-        $user = $TicketSvc->addUser($_SESSION["fname"], $_SESSION["sname"], $_SESSION["email"]);
-        $barcode = $TicketSvc->addTicket($user, $_SESSION["show"], $_SESSION["seat"]);
-
-        $view = $twig->render("thankyou.twig", array("barcode" => $barcode));
-        print($view);
-        session_unset();
-        $_SESSION["barcode"] = $barcode;
-    }
+                $view = $twig->render("thankyou.twig", array("barcode" => $barcode));
+                print($view);
+                session_unset();
+                $_SESSION["barcode"] = $barcode;
+            }
+        }
 
     else {
         echo 'Something went wrong... <br>';
