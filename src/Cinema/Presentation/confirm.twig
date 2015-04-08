@@ -5,7 +5,6 @@
     <title>Bevestig</title>
 </head>
 <body>
-
 <h3>Bestelling bevestigen</h3>
 <ul>
     <li>Voornaam: {{ session["fname"] }}</li>
@@ -13,7 +12,7 @@
     <li>E-mailadres: {{ session["email"] }}</li>
    <li>Film: {{ session["title"] }}</li>
     <li>Voorstelling: {{ session["date"] }} om {{ session["time"] }} in zaal {{ session["screen"] }}</li>
-    <li>Stoelnummer: {{ session["seat"] }}</li>
+    <li>Stoelnummer: {{ session.seat }}</li>
 
 </ul>
 <form action="order.php">

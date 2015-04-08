@@ -5,8 +5,9 @@
     <title>Kies voorstelling</title>
 </head>
 <body>
-<h3>Kies een voorstelling</h3>
-{{ session["film"] }}
+<h2>Kies een voorstelling</h2>
+<h3>{{session.title}} op {{session.date}}</h3>
+<br>
 <form action="index.php" method="post">
 {% for show in shows %}
 

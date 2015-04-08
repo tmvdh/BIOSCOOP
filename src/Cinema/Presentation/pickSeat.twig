@@ -56,24 +56,33 @@
             vertical-align:middle;
             cursor:pointer;
         }
+		div {
+			background-color: #CCC;
+			padding-left: 15%;
+			margin-left: 1%;
+			margin-right: 60%;
+			text-color: white;
+		}
     </style>
 </head>
 <body>
 <h2>Kies een zetel</h2>
+<div>Scherm</div>
+<br><br><br>
 <form action="index.php" method="post">
 {% for seat in seats %}
     {% if seat %}
 
         <img src="img/seats/radioblack.png" class="checkbox">
     {% else %}
-        <input type="radio" name="seat" id="{{ loop.index }}" class="css-checkbox"><label for="{{ loop.index }}" class="css-label"></label>
+        <input type="radio" name="seat" id="{{ loop.index }}" value="{{ loop.index }}" class="css-checkbox"><label for="{{ loop.index }}" class="css-label"></label>
     {% endif %}
 
     {% if loop.index is divisibleby(15) %}
         <br>
     {% endif %}
 {% endfor %}
-<br>
+<br><br>
     <label for="fname">Voornaam: </label><input type="text" name="fname"><br><br>
     <label for="snaam">Familienaam: </label><input type="text" name="sname"><br><br>
     <label for="email">E-mail: </label><input type="text" name="email"><br><br>
